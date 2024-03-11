@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session03</title>
+  </head>
+  <body>
+    <!-- Bài tập số 1 - Phần 1-->
+
+    <!-- <h1 >SỞ THÍCH CỦA BẠN</h1>
+
+      <form action="/login.html" method="post"">
+      <h1 style="background-color: rgba(184, 131, 52, 0.616); text-align: center;">SỞ THÍCH CỦA BẠN</h1>
+      <table >
+        <tr>
+          <td ><label for="yourname">Họ và tên</label></td>
+          <td>
+            <input type="text" id="yourname" name="yourname" size="20" required/>
+          </td>
+        </tr>
+        <tr>
+          <td height="5"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="lname" >Email</label></td>
+          <td>
+            <input type="text" id="lname" name="lname" size="15" required/>
+          </td>
+        </tr>
+      </table>
+
+      <table style="margin-left: 10px; margin-bottom: 10px;">
+        <tr>
+          <td align="">Sở thích</td>
+          <td>
+            <input
+        type="checkbox"
+        id="hobby1"
+        name="hobby1"
+      <label for="hobby1">Thể thao</label>
+          </td>
+          <td>
+            <input
+            type="checkbox"
+            id="hobby2"
+            name="hobby2"
+          />
+            <label for="hobby2"> Âm nhạc</label>
+          </td>
+          <td>
+            <input
+        type="checkbox"
+        id="hobby3"
+        name="hobby3"
+      />
+            <label for="hobby3">Đọc sách</label><br />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input
+        type="checkbox"
+        id="hobby4"
+        name="hobby4"
+      />
+            <label for="hobby4">Lướt web</label>
+          </td>
+          <td>
+            <input type="checkbox" id="hobby5" name="hobby5" />
+            <label for="hobby5">Chơi game</label>
+          </td>
+          <td>
+            <input type="checkbox" id="hobby6" name="hobby6" />
+            <label for="hobby6">Điện ảnh</label>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input
+        type="checkbox"
+        id="hobby7"
+        name="hobby7"
+      />
+            <label for="hobby7">Du lịch</label>
+          </td>
+          <td></td>
+          <td></td>
+        </tr>  
+      </table>
+      <input type="submit" value="Gửi thông tin" style="margin-left: 50px;"/>
+      <input type="reset" value="Nhập lại" />
+    </form>
+
+    <!-- Bài tập số 1 - Phần 2-->
+    <h1>ĐĂNG KÝ HỌC VIÊN</h1>
+    <form>
+      <table bgcolor="yellow" width="500" style="padding-left: 5px">
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="2" bgcolor="grey"><b>ĐĂNG KÝ HỌC VIÊN</b></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="fname"><b>Họ và tên</b></label>
+          </td>
+          <td><input type="text" id="fname" name="fname" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="bday"><b>Ngày sinh</b></label>
+          </td>
+          <td><input type="date" id="bday" name="bday" /></td>
+        </tr>
+        <tr>
+          <td><label for="Gender">Giới tính</label></td>
+          <td>
+            <input type="radio" id="Gender" name="Gender" value="Nam" />
+            <label for="Gender">Nam</label>
+            <input type="radio" id="Gender" name="Gender" value="Nữ" />
+            <label for="Gender">Nữ</label>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"><label>Địa chỉ</label></td>
+          <td><textarea rows="5" cols="30"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="class">Lớp</label></td>
+          <td>
+            <select id="class" name="class">
+              <option>-Chọn lớp-</option>
+              <option value="C506">C506</option>
+              <option value="B302">B302</option>
+              <option value="C813">C813</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="mail">Email</label></td>
+          <td><input type="text" id="mail" name="mail" required /></td>
+        </tr>
+        <tr>
+          <td><label for="phone">Điện thoại</label></td>
+          <td><input type="number" id="phone" name="phone" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Đăng ký" />
+            <input type="reset" value="Nhập lại" />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </form>
+
+    <!-- Bài tập số 2 -->
+    <!-- <h1>Market research survey</h1>
+    <p>Please take a few moments to complete this satisfaction survey</p>
+    <hr />
+    <form>
+      <label for="age"><b>what is your age range?</b></label>
+      <select id="age" name="age">
+        <option value="18-24">18-24</option>
+        <option value="24-40">25-40</option>
+        <option value="40-60">40-60</option></select
+      ><br /><br />
+
+      <label for="y-incomes"><b>what is your yearly income range?</b></label>
+      <select id="y-incomes" name="y-incomes">
+        <option value="$0-$25,000">$0-$25,000</option>
+        <option value="$25,000-$50,000">$25,000-$50,000</option>
+      </select>
+      <br /><br />
+      <label><b>Gender Identify</b></label
+      ><br />
+      <input type="radio" id="male" name="Gender" value="male" />
+      <label for="male">HTML</label><br />
+      <input type="radio" id="female" name="Gender" value="female" />
+      <label for="fmale">CSS</label><br />
+      <input type="radio" id="Nonbinary" name="Gender" value="Nonbinary" />
+      <label for="Nonbinary">Nonbinary</label><br />
+      <input type="radio" id="Other" name="Gender" value="Nonbinary" />
+      <label for="Other">Other</label><br />
+      <input type="text" name="Gender" id="Other" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form> -->
+
+    <!-- Bài tập số 3 -->
+    <!-- <form action="/login.html" method="post">
+      <label for="fname"><b>Họ và tên:</b></label
+      ><br />
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <label for="mail"><b>Email:</b></label
+      ><br />
+      <input type="email" id="mail" name="email" /><br /><br />
+      <label for="phone"><b>Số điện thoại:</b></label
+      ><br />
+      <input type="number" id="phone" name="phone" /><br /><br />
+      <label for="Gender"><b>Giới tính:</b></label
+      ><br />
+      <input type="radio" id="Gender" name="Gender" value="Nam" />
+      <label for="Gender">Nam</label>
+      <input type="radio" id="Gender" name="Gender" value="Nữ" />
+      <label for="Gender">Nữ</label><br /><br />
+      <input type="submit" value="Đăng ký" />
+    </form> -->
+
+    <!-- Bài tập số 4 -->
+    <!-- <form action="/login.html" method="post">
+      <h1>Market research survey</h1>
+      <p>Please take a few moments to complete this satisfaction survey</p>
+      <hr />
+      <label
+        ><b
+          >Which of the following products have you purchased in the last 2
+          months, please check all that apply.</b
+        ></label
+      ><br />
+      <input type="checkbox" name="product1" id="product1" />
+      <label for="product1">Product 1</label><br />
+      <input type="checkbox" id="product2" name="product2" />
+      <label for="product2">Product 2</label><br />
+      <input type="checkbox" id="product3" name="product3" />
+      <label for="product3">Product 3</label><br /><br />
+
+      <label><b>How often would you use our new product?</b></label
+      ><br />
+      <input type="radio" name="habbit-ofuse" id="daily" />
+      <label for="daily">Daily</label><br />
+      <input type="radio" id="weekly" name="habbit-ofuse" />
+      <label for="weekly">Weekly</label><br />
+      <input type="radio" id="monthly" name="habbit-ofuse" />
+      <label for="monthly">Monthly</label><br /><br /><br />
+
+      <label><b>What feature would you like to see in the new product</b></label
+      ><br />
+      <textarea rows="5" cols="50"> </textarea><br /><br />
+      <input type="submit" value="Submit" />
+    </form> -->
+  </body>
+</html>
